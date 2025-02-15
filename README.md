@@ -6,13 +6,6 @@
 ### 开始
 
 让你的AI支持FOFA搜索
-
-![image](https://github.com/user-attachments/assets/371278fa-1a26-49b0-81b1-8e69a8574394)
-
-![image](https://github.com/user-attachments/assets/4561976a-cbc9-4f4c-84a9-06742868b331)
-![image](https://github.com/user-attachments/assets/f6d2b94f-1075-4182-ba34-deb0436c1b22)
-![image](https://github.com/user-attachments/assets/e75eb46b-cdfd-4f94-b192-8e42ac3c790e)
-
 -->
 
 ## 安装
