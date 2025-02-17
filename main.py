@@ -15,10 +15,10 @@ class FofaQueryPlugin(Plugin):
 
     def __init__(self, plugin_host: PluginHost):
         self.plugin_host = plugin_host
-        if not os.path.exists("fofa_config.yaml"):
+        if not os.path.exists("plugins/FofaPlugin-master/fofa_config.yaml"):
             raise FileNotFoundError("fofa_config.yaml not found. Please create this file with your FOFA API credentials.")
         
-        with open("fofa_config.yaml", "r", encoding="utf-8") as f:
+        with open("plugins/FofaPlugin-master/fofa_config.yaml", "r", encoding="utf-8") as f:
             self.cfg = yaml.load(f, Loader=yaml.FullLoader)
 
     @llm_func(name="fofa_query")
